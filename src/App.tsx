@@ -1,9 +1,15 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import { ItemsListComponent } from "./components/items/ItemsList.component";
+
+const items: any[]=[{
+  
+}]
 
 function App() {
-  
+  return(
+    <div>
+      I am Sad
+    </div>
+  );
 }
 
 export default App
