@@ -18,7 +18,7 @@ const items: any[]=[
 function App() {
   return(
     <div>
-      I am Sad
+      <ItemsListComponent items={items}></ItemsListComponent>
     </div>
   );
 }
