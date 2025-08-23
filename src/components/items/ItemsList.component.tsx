@@ -18,7 +18,11 @@ export class ItemsListComponent extends React.Component<{
             </h3>
             <ul>
                 {
-                items.map((item: any, index: number) => <li key={index}>{item.name}</li>)
+                    items.map(
+                        (item, index) => {
+                            return <li key={index}>{item.name}</li>
+                        } 
+                    )
                 }
             </ul>
         </div>
