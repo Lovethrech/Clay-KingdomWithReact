@@ -3,8 +3,9 @@ import { ItemsListComponent } from "./components/items/ItemsList.component";
 const items: any[]=[
   {
     id: 1,
-    name: "Rachael"
-  }
+    name: 'Item 1'
+  },
+  
 ]
 
 function App() {
