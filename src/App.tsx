@@ -1,6 +1,7 @@
+import { ItemInterface } from "./models/items/Item.interface";
 import { ItemsListComponent } from "./components/items/ItemsList.component";
 
-const items: any[]=[
+const items: ItemInterface[]=[
   {
     id: 1,
     name: 'Item 1',
