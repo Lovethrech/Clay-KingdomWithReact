@@ -1,4 +1,5 @@
 import React from 'react'
+import { ItemInterface } from '../../models/items/Item.interface'
 
 export class ItemsListComponent extends React.Component<{
     items: any[]
