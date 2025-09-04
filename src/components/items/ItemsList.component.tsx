@@ -19,4 +19,3 @@ export const ItemsListComponent: React.FC<{
         </div>
     )
 }
-
