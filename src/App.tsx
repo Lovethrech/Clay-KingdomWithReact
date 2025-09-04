@@ -21,9 +21,7 @@
 
 function App() {
   return(
-    <div>
-      <ItemsListComponent items={items}></ItemsListComponent>
-    </div>
+    <p>Hello Rachael!</p>
   );
 }
 
