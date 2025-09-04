@@ -1,5 +1,5 @@
 import { ItemInterface } from "./models/items/Item.interface";
-import { ItemsListComponent } from "./components/items/ItemsList.component";
+// import { ItemsListComponent } from "./components/items/ItemsList.component";
 
 const items: ItemInterface[]=[
   {
